@@ -5,6 +5,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppEf", "WebAppEf\WebAppEf.csproj", "{CD5F0EA9-05CA-468C-AB85-C898AF91011B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppEfTests", "WebAppEfTests\WebAppEfTests.csproj", "{DDE801FC-C0B4-46ED-B991-ECB8C47B287E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CD5F0EA9-05CA-468C-AB85-C898AF91011B} = {CD5F0EA9-05CA-468C-AB85-C898AF91011B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
